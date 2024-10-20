@@ -1,0 +1,83 @@
+/* cardfeedback.css */
+.main-card {
+    transform: translateY(100px) scale(1.4); /* Mueve la tarjeta principal hacia abajo y la agranda */
+    transition: transform 0.3s ease-in-out;
+}
+
+.side-card {
+    transform: translateY(40px) scale(1.1); /* Baja y reduce las tarjetas laterales */
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.back-card {
+    transform: translateY(0px) scale(0.8); /* Reduce las tarjetas de fondo */
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.card-feedback-container-img{
+    height: 50%;
+}
+.card-feedback-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card-feedback-texto{
+    height: 50%;
+}
+.my-swiper {
+    width: 100%; 
+    align-items: center;
+    height: 88vh;
+    display: flex;
+    gap: 0;
+    overflow: hidden;
+    justify-content: center; /* Asegura que los slides estén centrados */
+}
+
+#card-feedback {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+    flex-shrink: 0;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    justify-content: flex-start;
+}
+
+.my-swiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    min-width: 150px;
+    height: auto;
+    right: 45px;
+}
+
+.my-swiper .swiper-slide:nth-child(odd) {
+    transform: translateY(-30px) scale(0.8); /* Subir y reducir las tarjetas laterales */
+}
+
+.my-swiper .swiper-slide:nth-child(even) {
+    transform: translateY(-100px) scale(0.8); /* Subir más y reducir las tarjetas de fondo */
+}
+
+.my-swiper .swiper-slide-active .main-card {
+    transform: translateY(110px) scale(1.3); /* Baja y agranda la tarjeta activa */
+}
+
+.my-swiper .swiper-slide {
+    filter: blur(0.5px);
+    opacity: 0.9;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.my-swiper .swiper-slide-active {
+    filter: blur(0px);
+    opacity: 1;
+    min-width: 300px;
+}

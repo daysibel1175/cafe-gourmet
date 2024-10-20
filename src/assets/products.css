@@ -1,0 +1,33 @@
+#mais-vendidos{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.5rem ;
+    padding: 2rem 6.2rem;
+}
+#cards{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
+}
+.card{
+    width: 270px;
+    height: 270px;
+    background-color: transparent;
+    border-radius: 8.566px;
+    border: 1.071px solid #F5F5F5;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    gap: 13px;
+    flex-shrink: 0;
+}
+.card-img{
+    border-radius: 50%;
+}

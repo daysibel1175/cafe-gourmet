@@ -1,0 +1,24 @@
+/* reset.css */
+
+/* Elimina los márgenes, paddings y bordes por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/* Asegúrate de que las imágenes no excedan el tamaño de su contenedor */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Otros resets básicos */
+ul, ol {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

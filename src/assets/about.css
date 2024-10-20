@@ -1,0 +1,61 @@
+#about{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem 6.25rem ;
+    gap: 5%;
+    height: 90vh;
+}
+#about-images{
+    justify-content: space-between;
+    width: 40%;
+    gap: 2rem;
+    display: flex;
+    height: 100%;
+}
+.end{
+    align-self: end;
+}
+.about-image{
+    width: 50%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+#about-texto{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+   gap: 20px;
+  
+}
+#about-texto h3{
+font-size: 36px;
+}
+#about-subtexto{
+    gap: 25px;
+   display: flex;
+   flex-direction: column;
+   padding: 1rem;
+}
+.about-icon{
+    color: #D6995B;
+}
+.about-parrafos{
+    text-align: left;
+    align-items:left;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 8px;
+}
+.about-parrafos h4{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
