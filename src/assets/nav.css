@@ -4,7 +4,7 @@
     align-items: center; 
     width: 100vw;
     font-family: Inter;
-    font-size: 18px;
+    font-size: clamp(0.6rem, 2vw + 0.9rem, 1.1rem);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -15,29 +15,28 @@ width: 10%;
 }
 #nav-menu{
     width: 50%;
-    
 }
 #nav-itens{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-   gap:30px;
+    gap:30px;
 }
 
 #nav-itens li{
 list-style: none;
 }
 #nav-botao{
-    width: 15%;
+    width: 20%;
     justify-content: center;
     align-items: center;
     padding: 0.7rem 2rem;
     max-width: 170px;
     border: 1px solid #d17f2e;
-    gap:10px;
+    display: flex;
 }
 #nav-botao a{
-background-color :transparent;
 width:100%;
+text-align: center;
 }

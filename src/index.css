@@ -28,7 +28,8 @@ body {
   min-height: 100vh;
 }
 h1{
-  font-size:3.125rem;
+  font-size:
+  clamp(1rem, 2vw + 1rem, 3.125rem);
 }
 h1, h2{
   line-height: 1.1;
