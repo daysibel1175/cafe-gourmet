@@ -15,15 +15,15 @@ function Footer() {
         <a href=""><WhatsAppIcon className='icon'/></a>
         </div>
         <div id='footer-links'>
-<span>Politica de privacidade</span>
-<span>Termos e condições</span>
+<a href="">Politica de privacidade</a>
+<a>Termos e condições</a>
         </div>
         </div>
      
         <div id='footer-direitos'>
         <CopyrightIcon/>
 
-<span>Todos os direitos reservados por DVSolutions</span>
+<span>Todos os direitos reservados por <strong>DVSolutions</strong> </span>
         </div>
       
     
