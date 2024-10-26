@@ -12,7 +12,7 @@ function About() {
     </div>
     <div id="about-texto">
         <h2>Sobre Nós</h2>
-        <h3>Porque escolher nosso café?</h3>
+        <h3 id="about-h3">Porque escolher nosso café?</h3>
         <div id="about-subtexto">
         <div className="about-parrafos">
         <h4><CheckIcon className="about-icon"/> Qualidade Artesanal Garantida</h4>
