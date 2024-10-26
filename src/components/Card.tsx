@@ -1,5 +1,4 @@
 import '../assets/products.css'
-import {  Typography} from '@mui/material';
 interface CardComponentProps {
     image: string;
     title: string;
@@ -11,9 +10,9 @@ const CardComponent: React.FC<CardComponentProps>  = ({ image, title, price, dis
     return (
         <div className='card'>
             <img src={image} alt="" className='card-img'/>
-                <Typography gutterBottom variant="h6" component="div">
+                <h3>
                     {title}
-                </Typography>
+                </h3>
                 <h4>
                      {price}<span style={{ textDecoration: 'line-through', fontWeight:'300', fontSize:'0.7rem' }}>{discountedPrice}</span>
                 </h4>

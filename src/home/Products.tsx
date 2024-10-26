@@ -5,6 +5,7 @@ import segundoproduto from '../images/produto2.png'
 import tercerproduto from '../images/produto3.png'
 import cuartoproduto from '../images/produto4.png'
 import quintoproduto from '../images/produto5.png'
+import SwiperComponent from '../components/ProdutosCarrousel'
 
 function Products() {
  
@@ -55,6 +56,9 @@ function Products() {
                 discountedPrice="75.99"
                buttonText="Comprar"
             />
+        </div>
+        <div id='produtos-carrousel'>
+<SwiperComponent/>
         </div>
     </div>
   )
