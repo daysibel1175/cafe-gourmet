@@ -1,33 +1,39 @@
+/* nav.css */
 #navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     width: 100vw;
     font-family: Inter;
-    font-size: clamp(0.6rem, 2vw + 0.9rem, 1.1rem);
+    font-size: clamp(0.9rem, 2vw + 1rem, 1.2rem);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding:1rem 6.25rem;
+    padding: 1rem 6rem;
 }
-#logo{
-width: 10%;
+
+#logo {
+    width: 8%;
+    height: 100%;
 }
-#nav-menu{
-    width: 50%;
+
+#nav-menu {
+    width: 60%;
 }
-#nav-itens{
+
+#nav-itens {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    gap:30px;
+    gap: 30px;
 }
 
-#nav-itens li{
-list-style: none;
+#nav-itens li {
+    list-style: none;
 }
-#nav-botao{
+
+.nav-botao {
     width: 20%;
     justify-content: center;
     align-items: center;
@@ -36,7 +42,91 @@ list-style: none;
     border: 1px solid #d17f2e;
     display: flex;
 }
-#nav-botao a{
-width:100%;
-text-align: center;
+
+.nav-botao a {
+    width: 100%;
+    text-align: center;
+}
+
+#hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+/* Estilo para el menú móvil */
+#nav-menu-mobile {
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.623);
+    padding: 1.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#nav-itens-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-itens-mobile li {
+    list-style: none;
+}
+.nav-botao-mobile{
+    padding: 0.7rem 2rem;
+    border: 1px solid #d17f2e;
+    display: flex;
+}
+
+
+/* Media query para pantallas de hasta 789px */
+@media (max-width: 820px) {
+    #navbar{
+        padding: 1rem 3rem;
+    }
+    #nav-menu, .nav-botao {
+        display: none;
+    }
+
+    #hamburger {
+        display: block; /* Muestra el menú de hamburguesa */
+    }
+
+    #nav-menu-mobile {
+        display: block; /* Muestra el menú móvil cuando está abierto */
+    }
+}
+
+/* Media query para pantallas de hasta 650px */
+@media (max-width: 750px) {
+    #nav-itens {
+        display: none;
+    }
+
+    #nav-itens-mobile {
+        display: flex; /* Muestra los ítems del menú móvil */
+    }
+}
+@media (max-width: 360px) {
+    #navbar{
+        padding: 0.5rem 1rem;
+        height: 3.3rem;
+    }
+    #logo {
+        width: 10%;
+        height: 100%;
+    }
+    #nav-menu-mobile {
+       
+        top: 60px;
+        right: 0px;
+        background-color: rgba(0, 0, 0, 0.925);
+        padding: 1.5rem;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
 }

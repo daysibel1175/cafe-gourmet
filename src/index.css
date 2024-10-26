@@ -1,6 +1,6 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.2;
   font-weight: 400;
   color: #FFFFFF;
   background: #000000;
@@ -37,6 +37,10 @@ h1, h2{
   color: #D6995B;
 }
 
+p{
+  font-size:
+  clamp(1rem, 2vw + 1rem, 1.2rem);
+}
 button {
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -55,4 +59,3 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-

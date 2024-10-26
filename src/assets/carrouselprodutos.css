@@ -1,0 +1,48 @@
+/* Media query para pantallas móviles */
+@media (max-width: 768px) {
+    .produtos-carrousel {
+      width: 95%;
+      align-items: center;
+      height: 100%;
+      display: flex;
+      overflow: hidden;
+      justify-content: center;
+    }
+    .produto-slide {
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      transition: transform 0.3s ease-in-out;
+      min-width: 200px;
+      height: 100%;
+      margin: 0 1rem 0 1rem;
+      padding: 0rem;
+      right:60px;
+    }
+    /* Utiliza selectores más específicos */
+ .swiper-button-prev.swiper-button-prev, 
+ .swiper-button-next.swiper-button-next {
+    color: #ffffff !important;
+    font-weight: 900 !important;
+    font-size: 100px !important;
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+  font-weight: 900 !important;
+  font-size: 70px !important;
+}
+
+.produto-slide {
+  filter: blur(3px);
+  opacity: 0.8;
+  transition: transform 0.3s ease-in-out;
+}
+.swiper-slide-active.produto-slide{
+  filter: blur(0px);
+  opacity: 1;
+}
+    }
+  
+
+  
+  

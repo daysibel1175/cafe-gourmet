@@ -6,4 +6,16 @@
     height: 100vh;
     flex-direction: column;
     gap: 1rem;
+    max-height: 600px;
+    padding: 1rem;
+}
+.google-map{
+    width: 80%;
+    height: 90%;
+}
+@media (max-width: 820px) {
+    .google-map{
+        width: 90%;
+        height: 90%;
+    }
 }
