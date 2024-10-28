@@ -38,11 +38,12 @@ text-align: left;
 
 }
 @media (max-width: 361px) {
+    
     #inicio{
         background: transparent;
         padding: 1rem;
         max-height: 50vh;
-    }
+ }
     #inicio-texto{
         width: 100%;
     }
