@@ -77,7 +77,15 @@
 }
 
 .my-swiper .swiper-slide-active {
-    filter: blur(0px);
+    filter: none;
     opacity: 1;
     min-width: 300px;
+}
+
+@media (max-width: 560px) {
+    .my-swiper .swiper-slide {
+        min-width: 150px;
+        height: auto;
+        right: 5px;
+    }
 }

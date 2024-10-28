@@ -16,6 +16,12 @@
         padding: 3.3rem;
     }
 }
-@media (max-width: 360px) {
-    
+@media (max-width: 560px) {
+
+     #feedback{
+        gap: 18px;
+        max-height: 
+        90vh;
+        padding: 3.3rem;
+    }
 }
