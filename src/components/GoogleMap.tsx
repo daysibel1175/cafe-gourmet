@@ -1,4 +1,3 @@
-import React from 'react';
 
 const GoogleMap: React.FC = () => {
   return (
