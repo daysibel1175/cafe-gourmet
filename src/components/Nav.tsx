@@ -1,5 +1,4 @@
-// Nav.tsx
-import  { useState } from 'react';
+import { useState } from 'react';
 import '../assets/nav.css';
 import logo from '../images/logo.svg';
 import NavMobile from './NavMobile';
