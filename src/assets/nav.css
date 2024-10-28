@@ -59,7 +59,7 @@
     position: absolute;
     top: 60px;
     right: 0px;
-    background-color: rgba(0, 0, 0, 0.623);
+    background-color: rgba(0, 0, 0, 0.897);
     padding: 1.5rem;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -106,27 +106,25 @@
     #nav-itens {
         display: none;
     }
-
     #nav-itens-mobile {
         display: flex; /* Muestra los ítems del menú móvil */
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 560px) {
     #navbar{
         padding: 0.5rem 1rem;
         height: 3.3rem;
     }
     #logo {
-        width: 10%;
+        width: 12%;
         height: 100%;
     }
     #nav-menu-mobile {
        
-        top: 60px;
-        right: 0px;
+
+ right: 0px;
         background-color: rgba(0, 0, 0, 0.925);
         padding: 1.5rem;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     }
     
 }
