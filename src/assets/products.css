@@ -38,19 +38,19 @@
 }
 .card h3{
     font-size:
-    clamp(1.6rem, 2vw + 1.4rem, 1rem) !important;
+    clamp(1.2rem, 2vw + 1.1rem, 1rem) !important;
 }
 .card h4{
     font-size:
-    clamp(1.6rem, 2vw + 1.4rem, 1rem) !important;
+    clamp(1.3rem, 2vw + 1.2rem, 1rem) !important;
 }
 .card span{
     font-size:
-    clamp(1.2rem, 2vw + 1rem, 0.8rem) !important;
+    clamp(1rem, 2vw + 0.8rem, 0.7rem) !important;
 }
 .card button{
     font-size:
-    clamp(1.5rem, 2vw + 1.3rem, 1rem) !important;
+    clamp(1.3rem, 2vw + 1.2rem, 1rem) !important;
 }
 #produtos-carrousel{
     display: none;
