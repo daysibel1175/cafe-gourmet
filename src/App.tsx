@@ -5,7 +5,6 @@ import Products from './home/Products'
 import Feedbacks from './home/Feedbacks'
 import Map from './home/Map'
 import Footer from './home/Footer'
-import './App.css'
 
 function App() {
  
@@ -24,3 +23,5 @@ function App() {
 }
 
 export default App
+
+

@@ -3,6 +3,8 @@ import '../assets/nav.css';
 import logo from '../images/logo.svg';
 import NavMobile from './NavMobile';
 
+
+
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -15,11 +17,11 @@ function Nav() {
       <div id='logo'><img src={logo} alt="logo" /></div>
       <div id='nav-menu'>
         <ul id="nav-itens">
-          <li><a href="">Inicio</a></li>
-          <li><a href="">Sobre</a></li>
-          <li><a href="">Menu</a></li>
-          <li><a href="">Avaliacoes</a></li>
-          <li><a href="">Endereço</a></li>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#about">Sobre Nós</a></li>
+          <li><a href="#mais-vendidos">Menu</a></li>
+          <li><a href="#feedback">Avaliacoes</a></li>
+          <li><a href="#map">Endereço</a></li>
         </ul>
       </div>
       <div className='nav-botao'>
