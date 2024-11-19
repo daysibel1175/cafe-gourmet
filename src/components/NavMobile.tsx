@@ -4,11 +4,11 @@ function NavMobile() {
   return (
     <div id='nav-menu-mobile'>
       <ul id="nav-itens-mobile">
-        <li><a href="">Inicio</a></li>
-        <li><a href="">Sobre</a></li>
-        <li><a href="">Menu</a></li>
-        <li><a href="">Avaliacoes</a></li>
-        <li><a href="">Endereço</a></li>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#about">Sobre Nós</a></li>
+          <li><a href="#mais-vendidos">Menu</a></li>
+          <li><a href="#feedback">Avaliacoes</a></li>
+          <li><a href="#map">Endereco</a></li>
         <li><a href="" className='nav-botao-mobile'>COMPRAR</a></li>
       </ul>
     </div>

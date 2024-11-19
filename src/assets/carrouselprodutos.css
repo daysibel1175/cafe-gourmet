@@ -1,24 +1,21 @@
 /* Media query para pantallas móviles */
 @media (max-width: 768px) {
     .produtos-carrousel {
-      width: 95%;
+      width: 85%;
       align-items: center;
       height: 100%;
       display: flex;
       overflow: hidden;
       justify-content: center;
+      padding: 3rem;
     }
     .produto-slide {
       display: flex !important;
-      justify-content: center;
       align-items: center;
-      flex-direction: column;
+      justify-content: center;
       transition: transform 0.3s ease-in-out;
-      min-width: 200px;
       height: 100%;
-      margin: 0 1rem 0 1rem;
-      padding: 0rem;
-      right:60px;
+    
     }
     /* Utiliza selectores más específicos */
  .swiper-button-prev.swiper-button-prev, 

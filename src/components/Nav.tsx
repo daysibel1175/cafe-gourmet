@@ -2,6 +2,7 @@ import { useState } from 'react';
 import '../assets/nav.css';
 import logo from '../images/logo.svg';
 import NavMobile from './NavMobile';
+import { Link } from 'react-router-dom';
 
 
 
@@ -21,11 +22,11 @@ function Nav() {
           <li><a href="#about">Sobre Nós</a></li>
           <li><a href="#mais-vendidos">Menu</a></li>
           <li><a href="#feedback">Avaliacoes</a></li>
-          <li><a href="#map">Endereço</a></li>
+          <li><a href="#map">Endereco</a></li>
         </ul>
       </div>
       <div className='nav-botao'>
-        <a href="">COMPRAR</a>
+        <Link to="/Shopping">COMPRAR</Link>
       </div>
       <div id="hamburger" onClick={toggleMenu}>
         ☰

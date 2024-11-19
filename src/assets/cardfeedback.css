@@ -13,24 +13,26 @@
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 .card-feedback-container-img{
-    height: 55%;
+    height: 50%;
+    width: 100%;
 }
 .card-feedback-img {
-    width: 100%;
-    height: 100%;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     object-fit: cover;
 }
 .card-feedback-texto{
-    height: 50%;
+    height: 40%;
 }
 .my-swiper {
     width: 100%; 
     align-items: center;
-    height: 88vh;
+    height: 85%;
     display: flex;
     overflow: hidden;
     justify-content: center; 
+    align-items: center;
 }
 
 #card-feedback {
@@ -38,12 +40,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 14px;
+    gap: 10px;
     flex-shrink: 0;
     text-align: center;
     max-width: 280px;
     height: 250px;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .my-swiper .swiper-slide {
@@ -81,11 +83,55 @@
     opacity: 1;
     min-width: 300px;
 }
+@media (max-width: 768px) {
+    .my-swiper .swiper-slide {
+        min-width: 100%;
+        height: auto;
+        right: 0; /* Resetea cualquier valor previo de right */
+        left: 0; /* Centra el slide */
+        transform: none !important; /* Desactiva cualquier transformación */
+        filter: none !important; /* Elimina el blur */
+    }
+
+    .my-swiper .swiper-slide-active {
+        min-width: 100%;
+        transform: none !important; /* Desactiva la transformación */
+        filter: none !important; /* Elimina el blur */
+    }
+
+    #card-feedback {
+        max-width: 100%; /* Ajuste para pantallas pequeñas */
+    }
+    .main-card {
+        margin: 0 1rem;
+        background-color: rgb(22, 82, 134);
+        padding: 1rem;
+        transform: none;
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+    
+    .my-swiper .swiper-slide-active .main-card {
+        display: flex;
+        transform: translateY(20px) scale(1.2); /* Baja y agranda la tarjeta activa */
+    }
+    .my-swiper .swiper-slide:nth-child(odd) {
+        transform: translateY(20px) scale(1.2); /* Subir y reducir las tarjetas laterales */
+    }
+    
+    .my-swiper .swiper-slide:nth-child(even) {
+        transform: translateY(20px) scale(1.2);/* Subir más y reducir las tarjetas de fondo */
+    }
+    
+    
+}
 
 @media (max-width: 560px) {
-    .my-swiper .swiper-slide {
-        min-width: 150px;
+
+
+    #card-feedback {
+        max-width: 100%;
         height: auto;
-        right: 5px;
     }
 }
+
+
