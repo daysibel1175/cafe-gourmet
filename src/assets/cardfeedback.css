@@ -104,7 +104,6 @@
     }
     .main-card {
         margin: 0 1rem;
-        background-color: rgb(22, 82, 134);
         padding: 1rem;
         transform: none;
         transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
