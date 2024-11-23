@@ -80,7 +80,7 @@
     }
     .card {
         width: 320px;
-        height: 350px;
+        height: 100%;
     }
     #cards {
         display: none; /* Ocultar grid en pantallas pequeñas */
@@ -95,6 +95,6 @@
 @media (max-width: 508px) {
     .card {
         width: 280px;
-        height: 300px;
+        height: 100%;
     }
 }
