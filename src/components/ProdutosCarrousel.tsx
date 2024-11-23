@@ -40,7 +40,7 @@ const SwiperComponent: React.FC = () => {
           spaceBetween: 1,
         },
         768: {
-          slidesPerView: 2,
+          slidesPerView: 3,
           spaceBetween: 1,
         },
         1024: {

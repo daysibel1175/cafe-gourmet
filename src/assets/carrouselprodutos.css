@@ -14,8 +14,7 @@
       align-items: center;
       justify-content: center;
       transition: transform 0.3s ease-in-out;
-      height: 100%;
-    
+      height: max-content !important;
     }
     /* Utiliza selectores más específicos */
  .swiper-button-prev.swiper-button-prev, 
