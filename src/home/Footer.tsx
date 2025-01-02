@@ -21,9 +21,8 @@ function Footer() {
         </div>
      
         <div id='footer-direitos'>
-        <CopyrightIcon/>
-
-<span>Todos os direitos reservados por <strong>DVSolutions</strong> </span>
+            <CopyrightIcon/> 
+            <span>Todos os direitos reservados por <strong translate='no'> DVSolutions</strong></span>
         </div>
       
     

@@ -1,10 +1,12 @@
-import '../assets/shopping.css'
+import '../assets/shopping.css';
+import { useNavigate } from 'react-router-dom';
 
 function Shopping() {
+  const navigate = useNavigate();
+
   return (
     <div className='shopping'>
-        <button>voltar</button>
-      <h1>Página de Compras</h1>
+      <button style={{ color: 'white'}} onClick={() => navigate('/')}>Voltar</button>
     </div>
   );
 }
